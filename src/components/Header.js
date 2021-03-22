@@ -1,7 +1,7 @@
 import React from 'react';
 import { Jumbotron, Container } from 'reactstrap';
 import githubLogo from '../assets/github.png';
-import SearchForm from '../containers/SearchForm';
+import SearchForm from './SearchForm';
 
 export default function Header() {
     return (

@@ -8,7 +8,9 @@ export default function SearchForm() {
 
     const handleSubmit = e => {
         e.preventDefault()
-        dispatch(loadRepo(val))
+        if(val){
+            dispatch(loadRepo(val))
+        }
     }
     return (
         <div className="container d-flex justify-content-center">

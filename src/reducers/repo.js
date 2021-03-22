@@ -1,6 +1,6 @@
 
 import {LOAD_PROFILE_SUCCESS,LOAD_REPOS_SUCCESS,SET_LOADING_PROFILE,SET_LOADING_REPOS} from '../constant';
-const repos = (state = { repositories: [], isLoadingProfile: true, isLoadingRepo: false, profile: {} }, action) => {
+const repos = (state = { repositories: [], isLoadingProfile: false, isLoadingRepo: false, profile: {} }, action) => {
     switch (action.type) {
         case LOAD_PROFILE_SUCCESS :
             return {
