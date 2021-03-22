@@ -3,14 +3,11 @@ import { useDispatch } from 'react-redux'
 import { loadRepo } from '../actions'
 
 export default function SearchForm() {
-    const [val, setVal] = useState("")
+    const [val, setVal] = useState("abdulazis530")
     const dispatch = useDispatch()
-
     const handleSubmit = e => {
         e.preventDefault()
-        if(val){
-            dispatch(loadRepo(val))
-        }
+        if(val)dispatch(loadRepo(val))  
     }
     return (
         <div className="container d-flex justify-content-center">

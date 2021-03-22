@@ -5,7 +5,7 @@ export default function Repo({name,description,html_url}) {
     return (
         <div className="card col-10 col-md-3 mx-3 my-3 card-custom text-center" >
             <div className="card-header">
-                <p className="font-weight-bold">{name}</p>
+                <p className="font-weight-bold text-primary"> {name}</p>
             </div>
             <div className=" card-body ">
                 {description ? description : "No Description" }
