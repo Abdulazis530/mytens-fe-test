@@ -1,4 +1,4 @@
-# Todo list documentation
+# Documentation
 
 ### Packages I used in this project
 
