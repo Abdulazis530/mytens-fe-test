@@ -1,17 +1,51 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
 
-
-.jumbotron{
+.jumbotron {
   background-color: black;
   color: #fff;
   box-shadow: 0px 3px 5px rgba(10, 10, 10, 0.7);
-  border-radius: 0px 0px 10px 10px
+  border-radius: 0px 0px 10px 10px;
+}
+
+
+.search__form {
+  padding: 0px 10px 0 20px;
+  margin-top: 10px;
+  color: #333;
+  font-weight: 500;
+  box-shadow: none;
+  min-height: 60px;
+  font-size: 1.25rem;
+  height: auto;
+  border-radius: 50px 0 0 50px ;
+}
+.search__form :focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.search__btn{
+  border: 0;
+  padding: 0px 10px;
+  margin-top: 10px;
+  color: #fff;
+  background: #444;
+  font-size: 1.25rem;
+  font-weight: 500;
+  min-height: 60px;
+  height: auto;
+  border-radius: 0 50px 50px 0 !important;
+}
+.search__btn:hover{
+ background-color:#888;
+ transform: scale(.98);
 }
